@@ -22,9 +22,7 @@ int base_converter(int x, int base)
 
 	if (x < 0)
 	{
-		_putchar('-');
 		x = x * -1;
-		count++;
 	}
 
 	while (x > 0)
